@@ -1,0 +1,59 @@
+# ----------------------
+# Ogólne
+# ----------------------
+node_modules/
+*.log
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ----------------------
+# Backend (/api)
+# ----------------------
+api/node_modules/
+api/dist/
+api/build/
+api/coverage/
+api/.env
+api/npm-debug.log
+api/yarn-error.log
+
+# ----------------------
+# Frontend (/client)
+# ----------------------
+client/node_modules/
+client/build/
+client/dist/
+client/coverage/
+client/.env
+client/npm-debug.log
+client/yarn-error.log
+
+# Jeśli używasz tylko npm:
+client/yarn.lock
+api/yarn.lock
+
+# Jeśli używasz tylko yarn:
+client/package-lock.json
+api/package-lock.json
+
+# ----------------------
+# IDE, systemy
+# ----------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+Thumbs.db
+
+# ----------------------
+# Inne
+# ----------------------
+temp/
+tmp/
